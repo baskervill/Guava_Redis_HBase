@@ -38,4 +38,3 @@ note:
 １．可以修改redis-cluster中每个节点的redis.conf文件中的maxmemory的数值来设置redis内存的大小。
 ２．修改程序内的Guava.java文件中的maximumSize的数值设置Guava里面能存的数据的最大数。
 ４．通过修改源代码可以设置多种测试模式，目前代码是测试Guava+redis+hbase的整合代码，可以修改源代码测试不同的模块。
-５．有任何使用问题，请联系lswmistlsw@163.com
