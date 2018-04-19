@@ -1,0 +1,20 @@
+option java_package = "com.GuavaRedisHbase";
+
+option java_outer_classname = "RedisHbasePro";
+option java_generic_services = true;
+option optimize_for = SPEED;
+
+message getValueRequest {
+     required string rowKey = 1;
+     required string family = 2;
+     required string column = 3;
+}
+
+message getBackResultResponse {
+  required string BackResult = 1;
+}
+
+service RedisHbaseProService {
+  rpc getVauleFromCo(getValueRequest)
+    returns(getBackResultResponse);
+}

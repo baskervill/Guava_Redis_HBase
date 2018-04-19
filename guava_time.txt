@@ -1,0 +1,14 @@
+300 data time : 151ms
+600 data time : 112ms
+900 data time : 123ms
+1200 data time : 234ms
+
+300 data time : 146ms
+600 data time : 123ms
+900 data time : 150ms
+1200 data time : 195ms
+
+300 data time : 146ms
+600 data time : 123ms
+900 data time : 150ms
+1200 data time : 195ms
