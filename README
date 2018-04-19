@@ -31,10 +31,10 @@ export PATH=$HBASE_HOME/bin:$PATH
 
 ８．首先运行指令"mvn clean compile"
 ９．编译成功后，运行指令"./deploy.sh"
-７．运行没有错误后，运行指令"./test.sh" 或者"./test.sh test1 2500" 该指令第一个参数为表名，第二个为测试的读取数据量
-８．运行完成后，在控制台最后可以看到运行时间和guava内存的命中率
+10．运行没有错误后，运行指令"./test.sh" 或者"./test.sh test1 2500" 该指令第一个参数为表名，第二个为测试的读取数据量
+11．运行完成后，在控制台最后可以看到运行时间和guava内存的命中率
 
 note:
 １．可以修改redis-cluster中每个节点的redis.conf文件中的maxmemory的数值来设置redis内存的大小。
 ２．修改程序内的Guava.java文件中的maximumSize的数值设置Guava里面能存的数据的最大数。
-４．通过修改源代码可以设置多种测试模式，目前代码是测试Guava+redis+hbase的整合代码，可以修改源代码测试不同的模块。
+3．通过修改源代码可以设置多种测试模式，目前代码是测试Guava+redis+hbase的整合代码，可以修改源代码测试不同的模块。
